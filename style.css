@@ -61,7 +61,6 @@ body {
 
 .cta-button {
     display: block;
-    width: 90%;
     padding: 10px;
     margin: 12px 20px;
     background: linear-gradient(90deg, #f39c12, #f1c40f);
@@ -103,7 +102,6 @@ body {
 
 .cta-button-2 {
     display: block;
-    width: 90%;
     padding: 10px;
     margin: 12px 20px;
     background: linear-gradient(90deg, #e74c3c, #e67e22);
@@ -187,4 +185,36 @@ li:before {
     color: #95a5a6;
     text-align: center;
     margin-top: 30px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+        margin: 0 5px;
+        font-size: 1rem;
+
+    }
+
+    .header img {
+        width: 100px;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .cta-button, .cta-button-2 {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    li {
+        font-size: 0.9rem;
+    }
+    
 }
