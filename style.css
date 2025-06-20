@@ -129,6 +129,73 @@ body {
     border-radius: 12px;
     animation-fill-mode: both;
     animation: slideInUp 0.8s ease-out;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review-quote {
+    background-color: #1f2937;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.review-quote div:first-child {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviewer-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.owner-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #2d3748;
+}
+
+.owner-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #3b82f6;
+}
+
+.owner-info h3 {
+    margin: 0 0 5px 0;
+    font-weight: 500;
+}
+
+.owner-info p {
+    margin: 0;
+    color: #9ca3af;
+    font-size: 14px;
 }
 
 @keyframes slideInUp {
